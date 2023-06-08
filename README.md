@@ -18,20 +18,26 @@ This is a progressive web application text editor that generates a manifest.json
     
 ## Installation
   
-npm install --save-dev @babel/plugin-proposal-object-rest-spread, npm i 
+- npm install 
+- --save-dev @babel/plugin-proposal-object-rest-spread
+- the second command line command is one that we ran into in class with our instructor. i added to to the package json but it never installed properly in class, so i just added this CLI command and it fixed the babel. 
+
     
 ## Usage
     
-The user can download the repo, run the above CLI commands and the progarm will run. Conversely, it will be on heroku until the course is over Juiy 8 2023.
+The user can download the repo, run the above CLI commands, then run npm run start and the progarm will run. Conversely, it will be on heroku until the course is over Juiy 8 2023.
     
-    
-![](./assets/images/.png)
-       
+![test text web application](./assets/images/text.PNG)
+![local storage snippet](./assets/images/storage.PNG)
+![service worker snippet](./assets/images/service_worker.PNG)
+![manifest snippet](./assets/images/manifest.PNG)       
     
 ## Credits
 Module 19 was completed using lessons learned from week 19 PWA the following activities were referenced and modeled:
+- 17/18 Caching
 - 23/24 IndexedDB CRUD
-
+- 25/26 Manifest
+- Stu Mini-Project
 
 ## Questions
 
@@ -69,10 +75,3 @@ SOFTWARE.
  
 ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 ![Danny](https://img.shields.io/badge/Danny-myREADME-brightgreen)
-    
-## Features
-  
-
-    
-## Tests
-
